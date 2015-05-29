@@ -82,8 +82,8 @@
 
 
 
-    <div class="container">
-        <footer>Virtual Carrier Wing Three is not assosiated with the US Navy. All material is copyright protected and may not be duplicated without the consent of Hollywood and Rollingrock or the Virtual Carrier Wing Three.</footer>
+    <div class="container-fluid footer">
+        <footer>Virtual Carrier Wing Three is not associated with the US Navy. All material and media hosted on this site is copyright protected and may not be duplicated without the consent of Hollywood and RollingRock or the Virtual Carrier Wing Three.</footer>
     </div>
 
 	<!-- Scripts -->

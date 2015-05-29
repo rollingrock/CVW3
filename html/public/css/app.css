@@ -7599,10 +7599,14 @@ button.close {
 
 body {
   padding-top: 45px;
-  background-color: white; }
+  background-color: #B5B5B5; }
 
-.navbar {
-  border: 0px solid transparent; }
+.navbar-default {
+  border: 0px solid transparent;
+  background-color: #7f8c8d; }
+
+.navbar-default .navbar-nav li a {
+  color: white; }
 
 #splash_bg {
   clear: both;
@@ -7620,14 +7624,6 @@ body {
 #welcome {
   height: 500px; }
 
-.footer {
-  position: relative;
-  margin-top: -150px;
-  /* negative value of footer height */
-  height: 150px;
-  clear: both;
-  padding-top: 20px; }
-
 #header {
   border: 0px solid transparent;
   padding-top: 100px; }
@@ -7639,5 +7635,15 @@ body {
 
 .header strong {
   color: #c0392b; }
+
+.footer {
+  background-color: #ccc; }
+
+footer {
+  position: relative;
+  text-align: center;
+  clear: both;
+  padding-top: 5px;
+  font-size: 0.7em; }
 
 /*# sourceMappingURL=app.css.map */
