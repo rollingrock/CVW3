@@ -7589,6 +7589,14 @@ button.close {
 .fa-medium:before {
   content: ""; }
 
+@font-face {
+  font-family: airborne2;
+  src: url(../fonts/airbrne2.ttf); }
+
+@font-face {
+  font-family: 'Airborne';
+  src: url(../fonts/airborne.ttf); }
+
 body {
   padding-top: 45px;
   background-color: white; }
@@ -7625,7 +7633,7 @@ body {
   padding-top: 100px; }
 
 .header {
-  font-family: 'Black Ops One', cursive;
+  font-family: 'Airborne';
   color: #2c3e50;
   font-size: 5em; }
 
