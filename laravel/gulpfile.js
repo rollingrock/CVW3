@@ -1,5 +1,11 @@
 var elixir = require('laravel-elixir');
 
+var paths = {
+    'jquery': './bower_components/jquery/',
+    'bootstrap': './bower_components/bootstrap-sass-official/assets/',
+    'font_awesome': './bower_components/font-awesome/scss'
+};
+
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -11,6 +17,7 @@ var elixir = require('laravel-elixir');
  |
  */
 
-elixir(function(mix) {
-    mix.less('app.less');
+elixir(function(mix){
+
+    mix.sass("app.scss", '../html/public/css/', {includePaths: [paths.bootstrap + 'stylesheets/', paths.font_awesome]})
 });
