@@ -44,21 +44,19 @@
         </nav>
         <div id="header" class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <p class="header">Virtual</p>
+                <div class="col-md-12 col-xs-12">
+                    <p class="header">Virtual Carrier Wing <strong>3</strong></p>
+                </div>
+                <div class="hidden-lg hidden-md col-sm-12 col-xs-12">
+                    <p class="motto smaller"><i>"The Buck Stops Here"</i></p>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-sm-1 col-xs-1">
+                    <a class="ghost_button" href="#"><strong>JOIN US</strong></a>
+                </div>
+                <div class="col-md-5 col-md-offset-2 hidden-sm hidden-xs">
+                    <p class="motto"><i>"The Buck Stops Here"</i></p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="header">Carrier</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="header">Wing <strong>3</strong></p>
-                </div>
-            </div>
-
         </div>
     </section>
 

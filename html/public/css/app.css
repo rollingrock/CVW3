@@ -7617,7 +7617,7 @@ body {
   height: 100vh;
   width: 100%;
   min-height: 650px;
-  min-width: 500px;
+  min-width: 350px;
   padding: 0;
   margin: 0; }
 
@@ -7626,15 +7626,50 @@ body {
 
 #header {
   border: 0px solid transparent;
-  padding-top: 100px; }
+  position: relative;
+  top: 10vh; }
 
 .header {
   font-family: 'Airborne';
-  color: #2c3e50;
-  font-size: 5em; }
+  color: #ecf0f1;
+  font-size: 2.8em;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+@media (min-width: 991px) {
+  .header {
+    font-family: 'Airborne';
+    color: #ecf0f1;
+    font-size: 5em;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; } }
 
 .header strong {
   color: #c0392b; }
+
+.motto {
+  font-family: 'Open Sans';
+  color: #2980b9;
+  font-weight: bold; }
+
+@media (min-width: 991px) {
+  .motto {
+    font-family: 'Open Sans';
+    color: #2980b9;
+    font-size: 2.5em; } }
+
+.smaller {
+  font-size: 1.8em; }
+
+.ghost_button {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  margin-top: 7px;
+  font-size: 1.2em; }
 
 .footer {
   background-color: #ccc; }
