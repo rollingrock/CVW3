@@ -62,7 +62,7 @@
         <div id="header" class="container">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
-                    <p class="header">Virtual Carrier Wing <strong>3</strong></p>
+                    <p class="header">Virtual Carrier Wing Three</p>
                 </div>
                 <div class="hidden-lg hidden-md col-sm-12 col-xs-12">
                     <p class="motto smaller"><i>"The Buck Stops Here"</i></p>
