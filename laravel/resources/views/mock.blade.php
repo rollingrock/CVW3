@@ -31,7 +31,6 @@
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Home</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Squadrons <span class="caret"></span></a>
                             <ul class="dropdown-menu header-bg" role="menu">
@@ -47,13 +46,15 @@
                         </li>
                         <li><a href="#">Ready Room</a></li>
                         <li><a href="#">Forums</a></li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">Downloads</a></li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
 
                         <li><a href="#">Login</a></li>
-                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Apply</a></li>
                     </ul>
                 </div>
             </div>
