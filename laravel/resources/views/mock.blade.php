@@ -53,7 +53,7 @@
                 <div class="col-md-2 col-md-offset-1 col-sm-1 col-xs-1">
                     <a class="ghost_button" href="#"><strong>JOIN US</strong></a>
                 </div>
-                <div class="col-md-5 col-md-offset-2 hidden-sm hidden-xs">
+                <div class="col-md-5 col-md-offset-1 hidden-sm hidden-xs">
                     <p class="motto"><i>"The Buck Stops Here"</i></p>
                 </div>
             </div>
