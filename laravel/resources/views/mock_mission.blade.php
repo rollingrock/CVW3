@@ -62,6 +62,7 @@
                                     <th class="text-center">Type</th>
                                     <th class="text-center">Route</th>
                                     <th class="text-center">Status</th>
+                                    <th class="text-center">Activate</th>
                                     <th class="text-center">Delete</th>
                                 </tr>
                                 <tr>
@@ -74,6 +75,7 @@
                                     <td>Training</td>
                                     <td>KNTU YERIN5</td>
                                     <td><span class="label label-info text-center">PLANNED</span></td>
+                                    <td class="text-center"><a href="#"><span class="glyphicon glyphicon-ok" style="color : green"></span></a></td>
                                     <td class="text-center"><a href="#"><span class="glyphicon glyphicon-remove" style="color : red"></span></a></td>
                                 </tr>
                                 <tr>
@@ -86,6 +88,7 @@
                                     <td>Training</td>
                                     <td>KNTU YERIN5 KRNO</td>
                                     <td><span class="label label-success">ACTIVE</span></td>
+                                    <td class="text-center"><a class="hidden" href="#"><span class="glyphicon glyphicon-ok" style="color : green"></span></a></td>
                                     <td><a href="#"><span class="glyphicon glyphicon-remove" style="color : red"></span></a></td>
                                 </tr>
                             </table>
