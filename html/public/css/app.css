@@ -7602,7 +7602,7 @@ html {
   min-height: 100%; }
 
 body {
-  padding-top: 45px;
+  padding-top: 51px;
   background-color: #fff;
   margin-bottom: 50px; }
 
@@ -7755,11 +7755,37 @@ body {
 .dashboard {
   margin-top: 40px; }
 
+.banner {
+  padding: 0;
+  margin: 0;
+  background: #000 url("http://www.virtualcarrierwing3.com/vb4/images/20th_images/main_display.png") center left;
+  background-repeat: no-repeat;
+  background-color: #969899;
+  background-blend-mode: darken;
+  height: 291px;
+  width: 100%; }
+
+@media (min-width: 1000px) {
+  .banner {
+    padding: 0;
+    margin: 0;
+    background: #000 url("http://www.virtualcarrierwing3.com/vb4/images/20th_images/main_display.png") center center;
+    background-repeat: no-repeat;
+    background-color: #969899;
+    background-blend-mode: darken;
+    height: 291px;
+    width: 100%; } }
+
+.airborne {
+  font-family: "airborne2"; }
+
 .footer {
   background-color: #ccc;
   position: absolute;
   bottom: 0;
-  width: 100vw;
+  padding: 0;
+  margin: 0;
+  width: 100%;
   z-index: 1001;
   text-align: center;
   padding-top: 5px;
