@@ -36,5 +36,10 @@ class WelcomeController extends Controller {
     {
         return view('mock');
     }
+    public function mock_pilot()
+    {
+        return view('mock_pilot');
+    }
+
 
 }

@@ -15,6 +15,8 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('mock', 'WelcomeController@mock');
 
+Route::get('mock_pilot', 'WelcomeController@mock_pilot');
+
 //Route::controllers([
 //	'auth' => 'Auth\AuthController',
 //	'password' => 'Auth\PasswordController',
