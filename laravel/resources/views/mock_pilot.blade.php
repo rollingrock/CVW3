@@ -61,7 +61,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3 col-sm-3 hidden-xs sidebar">
+            <div class="col-md-2 col-sm-3 hidden-xs sidebar">
                 <div class="prof_snapshot">
                     <div class="prof_avatar">
                         <img src="http://www.virtualcarrierwing3.com/vb4/image.php?u=3&dateline=1323269872"/>
@@ -86,7 +86,7 @@
                 </div>
             </div>
 
-            <div class="col-md-9 col-md-offset-3 col-sm-9 col-sm-offset-3 dashboard">
+            <div class="col-md-10 col-md-offset-2 col-sm-9 col-sm-offset-3 dashboard">
                 <p>stuff and things</p>
             </div>
         </div>
