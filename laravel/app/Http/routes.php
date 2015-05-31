@@ -11,11 +11,12 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'WelcomeController@mock');
 
 Route::get('mock', 'WelcomeController@mock');
 
 Route::get('mock_pilot', 'WelcomeController@mock_pilot');
+Route::get('mock_mission', 'WelcomeController@mock_mission');
 
 //Route::controllers([
 //	'auth' => 'Auth\AuthController',

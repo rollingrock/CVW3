@@ -40,6 +40,10 @@ class WelcomeController extends Controller {
     {
         return view('mock_pilot');
     }
+    public function mock_mission()
+    {
+        return view('mock_mission');
+    }
 
 
 }

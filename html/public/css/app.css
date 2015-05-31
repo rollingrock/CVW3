@@ -7597,9 +7597,14 @@ button.close {
   font-family: 'Airborne';
   src: url(../fonts/airborne.ttf); }
 
+html {
+  position: relative;
+  min-height: 100%; }
+
 body {
   padding-top: 45px;
-  background-color: #fff; }
+  background-color: #fff;
+  margin-bottom: 50px; }
 
 .make-border-right {
   border-right: 1px lightgrey solid; }
@@ -7755,11 +7760,8 @@ body {
   position: absolute;
   bottom: 0;
   width: 100vw;
-  z-index: 1001; }
-
-footer {
+  z-index: 1001;
   text-align: center;
-  clear: both;
   padding-top: 5px;
   font-size: 0.7em; }
 

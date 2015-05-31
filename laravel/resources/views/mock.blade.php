@@ -53,10 +53,7 @@
     </section>
 
 
-
-    <div class="container-fluid footer">
-        <footer>Virtual Carrier Wing Three is not associated with the US Navy. All material and media hosted on this site is copyright protected and may not be duplicated without the consent of Hollywood and RollingRock or the Virtual Carrier Wing Three.</footer>
-    </div>
+    @include('partials.footer')
 
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
